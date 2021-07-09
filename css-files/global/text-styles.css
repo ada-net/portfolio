@@ -1,0 +1,201 @@
+/* ------------------------------- FONT styles --------------------------------- */
+
+/* Default font style in <p> elements */
+p {
+	margin: 15px;
+	font: normal 15px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+}
+
+	/*special <p> styles*/
+	.p-bold {
+		margin: 15px;
+		font: bold 15px Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+	}
+
+	.p-italic {
+		margin: 15px;
+		font: italic normal 15px Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+	}
+
+	.p-underlined {
+		margin: 15px;
+		font: normal 15px Verdana, Geneva, Tahoma, sans-serif;
+		text-decoration-line: underline;
+		color: black;
+	}
+
+	/*p style for footer area*/
+	.p-footer {
+		margin: 5px;
+		font: normal 14px Verdana, Geneva, Tahoma, sans-serif;
+		color: whitesmoke;
+	}
+
+	/*p style for call to actions*/
+	.p-cta {
+		margin: 15px;
+		font: bold 20px Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+	}
+
+/*general link and link hover style (not valid for main nav. For main navigation is used the .a-main class)*/
+a {
+	margin: 15px;
+	font: bolder 13px Verdana, Geneva, Tahoma, sans-serif;
+	color: blue;
+	text-decoration: none;
+}
+
+	a:hover {
+		font: bold 13px Verdana, Geneva, Tahoma, sans-serif;
+		text-decoration-line: underline;
+		text-decoration-color: blue;
+	}
+
+	/*main nav link style, diversified by display size*/
+	@media (max-width: 599px) {
+		.a-main {
+			font: bolder 12px Verdana, Geneva, Tahoma, sans-serif;
+			text-decoration: none;
+			color: black;
+		}
+	}
+
+	@media (min-width: 600px) {
+		.a-main {
+			font: bolder 16px Verdana, Geneva, Tahoma, sans-serif;
+			text-decoration: none;
+			color: black;
+		}
+	}
+
+	/*main nav link hover style, diversified by display size*/
+	@media (max-width: 599px) {
+		.a-main:hover {
+			font: bold 12px Verdana, Geneva, Tahoma, sans-serif;
+			text-decoration: underline;
+			text-decoration-color: rebeccapurple;
+			text-decoration-thickness: 4px;
+		}
+	}
+
+	@media (min-width: 600px) {
+		.a-main:hover {
+			font: bold 16px Verdana, Geneva, Tahoma, sans-serif;
+			text-decoration: underline;
+			text-decoration-color: rebeccapurple;
+			text-decoration-thickness: 4px;
+		}
+	}
+
+/*list style*/
+li {
+	margin: 15px;
+	font: normal 15px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+}
+
+/*quotation style*/
+blockquote {
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font: lighter 0.5cm Verdana, Geneva, Tahoma, sans-serif;
+	color: purple;
+	background-color: lightcyan;
+}
+
+	#blockquote-link {
+		font: normal 0.5cm Verdana, Geneva, Tahoma, sans-serif;
+		color: blue;
+	}
+
+/*headings styles. NOTE that there are also heading CLASSES defined, in order to be able to create
+text elements LOOKING LIKE a certain heading, for SEO purposes as explained below*/
+h1 {
+	font: bold 34px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	margin: 15px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+h2 {
+	font: bolder 31px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	margin: 15px;
+	padding-top: 30px;
+}
+
+h3 {
+	font: normal 27px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	margin: 15px;
+	padding-top: 20px;
+}
+
+h4 {
+	font: normal 23px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	margin: 15px;
+}
+
+h5 {
+	font: normal 19px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	margin: 15px;
+}
+
+h6 {
+	font: normal 18px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	margin: 15px;
+}
+
+/* I am also defining H1-H6 CLASS styles in order to be able to make text elements LOOK like a heading although they aren't.
+		Reason: From a SEO point of view it is sometimes not good using headings for pure styling purposes.
+		In other words: If I want to have a big sized text element I should not be forced to declare a H1 or H2.
+		The declaration of "heading classes" aims to be a good solution for both devs and SEOs. */
+
+.h1-like {
+	font: bold 34px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	margin: 15px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.h2-like {
+	font: bolder 31px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	margin: 15px;
+	padding-top: 30px;
+}
+
+.h3-like {
+	font: normal 27px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	margin: 15px;
+	padding-top: 20px;
+}
+
+.h4-like {
+	font: normal 23px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	margin: 15px;
+}
+
+.h5-like {
+	font: normal 19px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	margin: 15px;
+}
+
+.h6-like {
+	font: normal 18px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	margin: 15px;
+}

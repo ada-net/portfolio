@@ -1,0 +1,79 @@
+/*File Description: This is the homepage body CSS for the single body parts.
+For the homepage template grid check the /homepage/homepage-grid.css file.*/
+
+/*homepage body flexbox general organization*/
+.body {
+	grid-area: bd;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+/*Welcome phrase*/
+#welcome {
+ 	text-align: center;
+}
+
+/*Call to action phrase to check out the latest blogposts*/
+#latest {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+/*the blogpost-card general style (e.g. border and alignments)*/
+.card {
+	border: 3px solid grey;
+	border-radius: 30px;
+	background-image: linear-gradient(rgb(202, 213, 226), rgb(172, 172, 172));
+	text-align: center;
+	margin: 20px;
+}
+
+	/*the blogpost-card title*/
+	.card-title {
+		text-decoration-line: none;
+	}
+
+	/*article card picture style*/
+	.cardpic {
+		text-align: center;
+	}
+
+		/*the blogpost-card picture, sized depending on screen size*/
+		@media (max-width: 360px){
+			.cardpic-size {
+				width: 200px;
+			}
+		}
+
+		@media (min-width: 361px) and (max-width: 599px){
+			.cardpic-size {
+				width: 300px;
+			}
+		}
+
+		@media (min-width: 600px){
+			.cardpic-size {
+				width: 350px;
+			}
+		}
+
+	/*the blogpost-card button to read the article*/
+	.cardbutton {
+		background-color: rgb(90, 24, 243);
+		border: 2px solid black;
+		border-radius: 50px;
+		display: inline-block;
+		color: white;
+		width: 130px;
+		height: 25px;
+		padding-top: 14px;
+		padding-bottom: 5px;
+	}
+
+	.cardbutton:hover {
+		background-color: white;
+		color: rgb(90, 24, 243);
+		border-color: rgb(90, 24, 243);
+	}
+

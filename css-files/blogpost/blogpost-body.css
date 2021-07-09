@@ -1,0 +1,40 @@
+/*File Description: This is the blogpost body CSS.
+For the blogpost template grid check the blogpost/post-grid.css file.*/
+
+/*blogpost body flexbox general organization. For me in this case it does not make sense organizing the blogpost body elements in a flexbox or grid.
+A blogpost content should be styled line by line/element by element in order to assure a good readability.*/
+.blogpost-body {
+	grid-area: bd;
+	align-items: stretch;
+}
+
+/*style for blogpost images*/
+
+/*the blogpost picture, sized depending on screen size*/
+@media (max-width: 360px){
+	.postimg {
+		width: 200px;
+	}
+}
+
+@media (min-width: 361px) and (max-width: 599px){
+	.postimg {
+		width: 300px;
+	}
+}
+
+@media (min-width: 600px){
+	.postimg {
+		width: 500px;
+	}
+}
+
+figure {
+	margin: 20px auto;
+	text-align: center;
+}
+
+figcaption {
+	font: lighter 13px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+}

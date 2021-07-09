@@ -1,0 +1,38 @@
+/*GLOBALLY used CSS (used by homepage & blogpost)*/
+
+	/*General style for boxes in the project*/
+	@import "./global/box.css";
+
+	/*CSS for text, links, quotations, ..*/
+	@import "./global/text-styles.css";
+
+	/*CSS for the project's header*/
+	@import "./global/head.css";
+
+	/*CSS for the project's footer*/
+	@import "./global/footer.css";
+
+/*CSS used by single page types*/
+
+	/*------------homepage----------------*/
+	/*homepage grid CSS*/
+	@import "./homepage/homepage-grid.css";
+
+	/*homepage body CSS*/
+	@import "./homepage/body.css";
+
+	/*homepage sidebar CSS*/
+	@import "./homepage/sidebar.css";
+
+	/*------------blogpost-----------------*/
+	/*blogpost body css*/
+	@import "./blogpost/blogpost-body.css";
+
+	/*blogpost grid CSS*/
+	@import "./blogpost/post-grid.css";
+
+	/*blogpost author info box*/
+	@import "./blogpost/author-info.css";
+
+	/*blogpost share buttons*/
+	@import "./blogpost/share.css";

@@ -1,0 +1,32 @@
+/*File Description: CSS for the sharing button section below blogpost's main content*/
+
+/*General sharing section flexbox organization*/
+.share {
+	grid-area: sh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color:  lightsteelblue;
+}
+
+/*share call to action text area*/
+#share-cta {
+	padding: 20px;
+	text-align: center;
+}
+
+/*facebook sharing*/
+#fb {
+	padding: 10px;
+}
+
+/*twitter sharing*/
+#tw {
+	padding: 10px;
+}
+
+/*linkedin sharing*/
+#in {
+	padding: 10px;
+}

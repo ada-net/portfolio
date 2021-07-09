@@ -1,0 +1,45 @@
+/* Little Screens */
+@media (max-width: 599px) {
+	.sidebar {
+		grid-area: sd;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		background-image: linear-gradient(rgb(202, 213, 226), white);
+	}
+}
+
+/* All Other Screens */
+@media (min-width: 600px) {
+	.sidebar {
+		grid-area: sd;
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		align-items: stretch;
+		background-image: linear-gradient(rgb(202, 213, 226), white);
+	}
+}
+
+/*the "who writes here & introduction text" part in the sidebar. */
+@media (max-width: 599px) {
+	#intro {
+		display: none;
+	}
+}
+
+@media (min-width: 600px) {
+	#intro {
+		text-align: center;
+	}
+}
+
+/*the social media profiles part in the sidebar*/
+#profiles {
+	text-align: center;
+}
+
+/*the "email me" part in the sidebar*/
+#mail {
+	text-align: center;
+}

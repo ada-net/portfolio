@@ -1,0 +1,21 @@
+/*File Description: CSS of the globally used header*/
+
+/*header area is organized as flexbox*/
+.head {
+	grid-area: hd;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+}
+
+/*header logo style*/
+.logo {
+	padding-top: 4px;
+}
+
+/*header navigation menu style*/
+.menu {
+	padding-right: 10px;
+}

@@ -1,0 +1,204 @@
+<!--NOTE: This page can be found also ONLINE on: https://fischer-sabine.com/blogpost.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>SEO specialist Sabine Fischer</title>
+			<meta name="description" content="Find out why Sabine is the SEO specialist you can trust and how can she help your business to grow.">
+			<link rel="stylesheet" href="css-files/main.css">
+	</head>
+
+	<body>
+		<div class="postcontainer">
+
+			<!--main menu navigation-->
+			<!--the .box class can be found in global/box.css, the .head class in global/head.css-->
+			<header class="head box">
+				<!--the .logo class can be found in global/head.css-->
+				<div class="logo">
+					<a href="homepage.html">
+						<img src="images/logo.jpg" alt="logo">
+					</a>
+				</div>
+				<!--the .menu class can be found in global/head.css-->
+				<nav class="menu">
+					<!--the .a-main class can be found in global/text-styles.css-->
+					<a class="a-main" href="homepage.html" title="back to homepage">Home</a>
+				</nav>
+			</header>
+
+			<!--blogpost main part-->
+			<!--the .blogpost-body class can be found in blogpost/blogpost-body.css | .box: global/box.css-->
+			<main class="blogpost-body box">
+				<article>
+					<h1>How to SEO-friendly use H1-H6 for design-only purposes</h1>
+					<!--the .p-italic class can be found in global/text-styles.css-->
+					<p class="p-italic">
+						Once you will be ready to work as a frontend developer, you might get in touch also with search engine optimizers (SEOs)
+						whose work it is to check if the site you are developing is made in the best possible way to rank on search engine result pages.
+						One of the most common SEO requests will sound like that: "Heading elements should not be used for styling purposes.".
+						<br>
+						<br>
+						Find out what that means and what to do in order to make happy your client, Google and the SEO specialist!
+					</p>
+					<figure>
+						<!--the .postimg class can be found in blogpost/blogpost-body.css-->
+						<img class="postimg" src="images/headings-for-style-and-for-seo.jpg" alt="how to use headings correctly from a search engine's point of view">
+						<figcaption>should you use normal headings for design-only purposes?</figcaption>
+					</figure>
+					<br>
+					<h2>Search engines need to understand a page's content</h2>
+					<p>
+						A search engine does not only index pages, it also needs to try to understand what a page is talking about.
+					</p>
+					<br>
+					<br>
+					<blockquote>If you want to know more about how search engines work, take a look at
+						<!--the blockquote-link id can be found in global/text-styles.css-->
+						<a id="blockquote-link" href="https://www.google.com/search/howsearchworks/">this guide written by Google itself.</a>
+					</blockquote>
+					<br>
+					<br>
+					<p>
+						Only if Google figures out that your shop is selling flowerpots and that this shop is well-organized and able to
+						satisfy costomer's needs, it will consider showing it to people searching for flowerpots.
+						<br>
+						<br>
+						Not always understanding a page's content is easy for Google and Co.
+					</p>
+					<!--the .p-bold class can be found in global/text-styles.css-->
+					<p class="p-bold">
+						Next to other elements contributing to a good interpretation of the content (e.g. semantic tags), headings and the heading structure play important roles, too.
+					</p>
+					<h2>How headings can help search engines to understand a page's content</h2>
+					<p>The best way to imagine which heading could be useful and which not, is to imagine the page and it's elements you're developing as if they should be used to compone a book's index.
+						And exactly that is what can help search engines to understand the topic of a page and it's subtopics.
+						<br>
+						<br>
+						Let's imagine we have to design a blog article about next month's events in Rome for our client.
+						<br>
+						Thinking about this content as a book's index helps choosing a useful heading structure.
+					</p>
+					<!--the .p-underlined class can be found in global/text-styles.css-->
+					<p class="p-underlined">
+						An ideal structure could be:
+					</p>
+					<ul>
+						<li>H1: Events in Rome for June 2021</li>
+						<li>H2: Concerts</li>
+						<li>H3: Depeche Mode on June 2nd</li>
+						<li>H3: Andrea Bocelli on June 11th</li>
+						<li>...</li>
+						<li>H2: Guided Tours</li>
+						<li>H3: Antique Rome tour on June 9th</li>
+						<li>H3: Medieval Rome tour on June 15th</li>
+						<li>...</li>
+					</ul>
+					<p>
+						Wow, that's really a helpful index that helps search engines understand what the page is talking about!
+					</p>
+					<p>
+						Unfortunately, these perfect signals often don't come alone. Your client for example might want to insert some CTA phrases between the lines
+						of the main content of this page. And these CTAs obviously should be immediately visible and, for design reasons, look like a heading. At this point you should ask yourself if the CTA should become
+						a chapter in our book's imaginary index.
+					</p>
+					<p>
+						The answer is: no, it wouldn't make sense.
+						<br>
+						So, in some situations you might want a heading-like style without using a real HTML heading.
+					</p>
+					<h2>Create heading-like styles</h2>
+					<p>So, the solution for creating text elements who look like a heading but aren't, is simple and costs only a few minutes:</p>
+					<!--the .p-bold class can be found in global/text-styles.css-->
+					<p class="p-bold">Why not create heading-like css classes?</p>
+					<p>Maybe there is a more intelligent solution, but I have solved like this:</p>
+					<ol>
+						<li>Write your usual css styles for h1 - h6 as you always do</li>
+						<li>Once these styles are approved by your client, create dedicated classes for your heading-like styles. Example:
+							<ul>
+								<li>
+									.h1-like {put the approved h1 properties here}
+								</li>
+								<li>
+									.h2-like {put the approved h1 properties here}
+								</li>
+								<li>
+									... and so on ...
+								</li>
+							</ul>
+						</li>
+						<li>
+							Apply your heading-like classes to the elements who have to look like a heading but don't have semantic value.
+						</li>
+					</ol>
+					<br>
+					<br>
+					<p>
+						What's your opinion? Is this solution useful? Do you have other ideas for a better solution? You're welcome to share and discuss it!
+					</p>
+				</article>
+			</main>
+
+			<!--author info-->
+			<!--the .author-info class can be found in blogpost/author-info.css | .box: global/box.css-->
+			<aside class="author-info box">
+				<!--the author-img id can be found in blogpost/author-info.css-->
+				<img id="author-img" src="images/cardimg.jpg" alt="picture of Sabine the author">
+				<br>
+				<p>
+					<b>Author:</b> Sabine Fischer
+				</p>
+				<p>
+					<b>Job Title:</b> SEO Specialist
+				</p>
+				<p>
+					<b>Company:</b> Self-employed
+				</p>
+				<p>
+					<b>Bio:</b> Lifetime-nerd from Germany living in sunny Italy. Finally recovering my passion for coding.
+				</p>
+			</aside>
+
+			<!--social sharing-->
+			<!--the .share class can be found in blogpost/share.css | .box: global/box.css-->
+			<aside class="share box">
+				<!--the share-cta id can be found in blogpost/share.css | .p-cta: global/text-styles.css-->
+				<p id="share-cta" class="p-cta">Share the article</p>
+				<!--the fb id can be found in blogpost/share.css-->
+				<a id="fb" href="https://www.facebook.com/sharer/sharer.php?u=https://fischer-sabine.com/blogpost.html">
+					<img src="images/iconmonstr-facebook-5-48.png" target="_blank" rel="nofollow" alt="share on facebook">
+				</a>
+				<!--the tw id can be found in blogpost/share.css-->
+				<a id="tw" href="https://www.linkedin.com/shareArticle?mini=true&url=https://fischer-sabine.com/blogpost.html">
+					<img src="images/iconmonstr-linkedin-5-48.png" target="_blank" rel="nofollow" alt="share on linkedin">
+				</a>
+				<!--the "in" id can be found in blogpost/share.css-->
+				<a id="in" href="https://twitter.com/intent/tweet?url=https://fischer-sabine.com/blogpost.html&text=very%20interesting%20post">
+					<img src="images/iconmonstr-twitter-5-48.png" target="_blank" rel="nofollow" alt="share on twitter">
+				</a>
+			</aside>
+
+			<!--this is the footer-->
+			<!--the .footer class can be found in global/footer.css. | .box: global/box.css-->
+			<footer class="footer box">
+				<!--the copyright class can be found in global/footer.css.-->
+				<div class="copyright">
+					<!--the .p-footer class can be found in global/text-styles.css.-->
+					<p class="p-footer">Copyright 2021 fischer-sabine.com</p>
+				</div>
+				<nav>
+					<!--the legal class can be found in global/footer.css.-->
+					<div class="legal">
+						<!--the .p-footer class can be found in global/text-styles.css.-->
+						<p class="p-footer">place for legal info and links</p>
+					</div>
+				</nav>
+			</footer>
+		</div>
+
+	</body>
+
+</html>

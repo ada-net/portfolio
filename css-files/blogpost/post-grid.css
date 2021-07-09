@@ -1,0 +1,49 @@
+/*File Description: Grid template used for blogposts*/
+
+/* Anything smaller than first breakpoint 600px */
+@media (max-width: 599px){
+	.postcontainer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 110px 1fr 550px 50px;
+		grid-gap: 10px;
+		grid-template-areas:
+		"hd hd"
+		"bd bd"
+		"auth sh"
+		"ft ft";
+		background-color: rgb(248, 248, 248);
+	}
+}
+
+/* Medium Screens */
+@media (min-width: 600px) and (max-width: 900px){
+	.postcontainer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 110px 1fr 500px 50px;
+		grid-gap: 10px;
+		grid-template-areas:
+		"hd hd hd hd hd hd hd hd"
+		"bd bd bd bd bd bd bd bd"
+		"auth sh sh sh sh sh sh sh"
+		"ft ft ft ft ft ft ft ft";
+		background-color: rgb(248, 248, 248);
+	}
+}
+
+/* Large Screens */
+@media (min-width: 901px) {
+	.postcontainer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 110px 1fr 500px 50px;
+		grid-gap: 10px;
+		grid-template-areas:
+		"hd hd hd hd hd hd hd hd"
+		"bd bd bd bd bd bd bd bd"
+		"auth sh sh sh sh sh sh sh"
+		"ft ft ft ft ft ft ft ft";
+		background-color: rgb(248, 248, 248);
+	}
+}
