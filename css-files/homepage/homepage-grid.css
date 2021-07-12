@@ -6,12 +6,10 @@ The homepage body element styles can be found in body.css*/
 	.homepage-grid {
 		display: grid;
 		grid-template-columns: 100%;
-		grid-template-rows: 110px 2000px 260px 50px;
+		grid-template-rows: 1fr 50px;
 		gap: 10px;
 		grid-template-areas:
-		"hd"
 		"bd"
-		"sd"
 		"ft";
 		background-color: rgb(248, 248, 248);
 	}
@@ -21,13 +19,12 @@ The homepage body element styles can be found in body.css*/
 @media (min-width: 600px) and (max-width: 900px){
 	.homepage-grid {
 		display: grid;
-		grid-template-columns: 1fr 200px;
-		grid-template-rows: 110px 2000px 50px;
+		grid-template-columns: 100%;
+		grid-template-rows: 1fr 50px;
 		gap: 15px;
 		grid-template-areas:
-		"hd hd"
-		"bd sd"
-		"ft ft";
+		"bd"
+		"ft";
 		background-color: rgb(248, 248, 248);
 	}
 }
@@ -36,13 +33,12 @@ The homepage body element styles can be found in body.css*/
 @media (min-width: 901px) {
 	.homepage-grid {
 		display: grid;
-		grid-template-columns: 1fr 250px;
-		grid-template-rows: 110px 2200px 50px;
+		grid-template-columns: 100%;
+		grid-template-rows: 1fr 50px;
 		gap: 15px;
 		grid-template-areas:
-		"hd hd"
-		"bd sd"
-		"ft ft";
+		"bd"
+		"ft";
 		background-color: rgb(248, 248, 248);
 	}
 }

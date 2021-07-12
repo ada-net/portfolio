@@ -14,49 +14,26 @@ For the homepage template grid check the /homepage/homepage-grid.css file.*/
  	text-align: center;
 }
 
-/*Call to action phrase to check out the latest blogposts*/
-#latest {
-	text-align: center;
-	padding-bottom: 30px;
-}
 
 /*the blogpost-card general style (e.g. border and alignments)*/
-.card {
-	border: 3px solid grey;
-	border-radius: 30px;
+.section {
+	/*border: 3px solid grey;
+	border-radius: 30px;*/
 	background-image: linear-gradient(rgb(202, 213, 226), rgb(172, 172, 172));
-	text-align: center;
-	margin: 20px;
+	
+	/*margin: 20px;*/
 }
 
-	/*the blogpost-card title*/
-	.card-title {
+	/*body section title*/
+	.section-title {
 		text-decoration-line: none;
-	}
-
-	/*article card picture style*/
-	.cardpic {
 		text-align: center;
 	}
 
-		/*the blogpost-card picture, sized depending on screen size*/
-		@media (max-width: 360px){
-			.cardpic-size {
-				width: 200px;
-			}
-		}
-
-		@media (min-width: 361px) and (max-width: 599px){
-			.cardpic-size {
-				width: 300px;
-			}
-		}
-
-		@media (min-width: 600px){
-			.cardpic-size {
-				width: 350px;
-			}
-		}
+	/*article card picture style*/
+	.section-text {
+		text-align: left;
+	}
 
 	/*the blogpost-card button to read the article*/
 	.cardbutton {
