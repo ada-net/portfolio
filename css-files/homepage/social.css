@@ -1,0 +1,13 @@
+/*File Description: "social" section style*/
+
+/*organized as flexbox*/
+.social {
+	grid-area: so;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ 
+}
+

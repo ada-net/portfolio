@@ -1,0 +1,8 @@
+/*File Description: a css for helping in the layout process, designing a border in each 
+section or div, depending on current needs*/
+
+.helper {
+	border-style: dotted;
+    border-width:1px;
+    border-color:red;
+}

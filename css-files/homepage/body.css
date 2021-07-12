@@ -1,56 +1,49 @@
 /*File Description: This is the homepage body CSS for the single body parts.
 For the homepage template grid check the /homepage/homepage-grid.css file.*/
 
-/*homepage body flexbox general organization*/
+/*homepage body flexbox general organization
 .body {
 	grid-area: bd;
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
-}
-
-/*Welcome phrase*/
-#welcome {
- 	text-align: center;
-}
+}*/
 
 
-/*the blogpost-card general style (e.g. border and alignments)*/
-.section {
+/*the style for the colored sections*/
+.section-colored {
 	/*border: 3px solid grey;
 	border-radius: 30px;*/
-	background-image: linear-gradient(rgb(202, 213, 226), rgb(172, 172, 172));
+	background-image: linear-gradient(rgb(94, 109, 248), rgb(100, 52, 190));
 	
-	/*margin: 20px;*/
 }
 
-	/*body section title*/
+/*the style for the colored sections*/
+.section-uncolored {
+	/*border: 3px solid grey;
+	border-radius: 30px;*/
+	background-color: white;
+	
+}
+
+	/*colored section title
 	.section-title {
 		text-decoration-line: none;
-		text-align: center;
+		text-align: left;
+		margin: 5px;
 	}
 
-	/*article card picture style*/
+	/*colored section text style
 	.section-text {
 		text-align: left;
-	}
-
-	/*the blogpost-card button to read the article*/
-	.cardbutton {
-		background-color: rgb(90, 24, 243);
-		border: 2px solid black;
-		border-radius: 50px;
-		display: inline-block;
 		color: white;
-		width: 130px;
-		height: 25px;
-		padding-top: 14px;
-		padding-bottom: 5px;
-	}
+		margin-bottom: 5px;
+	}*/
 
+/*
 	.cardbutton:hover {
 		background-color: white;
 		color: rgb(90, 24, 243);
 		border-color: rgb(90, 24, 243);
 	}
-
+*/

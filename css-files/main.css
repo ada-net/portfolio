@@ -1,13 +1,13 @@
 /*GLOBAL CSS*/
 
-	/*General style for boxes in the project*/
-	@import "./global/box.css";
-
 	/*CSS for text, links, quotations, ..*/
 	@import "./global/text-styles.css";
 
 	/*CSS for the reusable footer*/
 	@import "./global/footer.css";
+
+	/*layout helper*/
+	@import "./global/helper.css";
 
 
 
@@ -17,5 +17,17 @@
 
 	/*homepage body CSS*/
 	@import "./homepage/body.css";
+
+	/*welcome section CSS*/
+	@import "./homepage/welcome.css";
+
+	/*brief section CSS*/
+	@import "./homepage/brief.css";
+
+	/*social section CSS*/
+	@import "./homepage/social.css";
+
+	/*presentation section CSS*/
+	@import "./homepage/presentation.css";
 
 	

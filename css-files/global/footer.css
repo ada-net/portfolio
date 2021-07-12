@@ -10,11 +10,11 @@
 }
 
 /*footer copyright info style*/
-.copyright {
+#copyright {
 	padding: 10px;
 }
 
 /*footer legal info style*/
-.legal {
+#legal {
 	padding: 10px;
 }

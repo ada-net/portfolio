@@ -1,0 +1,25 @@
+/*Welcome section*/
+
+.welcome {
+	grid-area: we;
+    display:flex;
+    flex-direction:column;
+ 	justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*welcome h1*/
+#h1-welcome {
+    font: bold 48px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	text-align:center;
+}
+
+/*picture style*/
+#picture {
+    border-radius: 90%;
+   
+    
+}

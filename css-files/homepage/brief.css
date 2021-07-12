@@ -1,0 +1,10 @@
+/*File Description: "in brief" section style*/
+
+/*organized as flexbox*/
+.brief {
+	grid-area: br;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-evenly ;
+    padding: 20px;
+}

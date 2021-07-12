@@ -14,65 +14,84 @@
 	<body>
 		<!--the .homepage-grid class can be found in homepage/homepage-grid.css-->
 		<div class="homepage-grid">
-
-
 			<!--this is the body-->
 			<!--the .body class can be found in homepage/body.css. | .box: global/box.css-->
-			<main class="body box">
-				<article>
+			<main>
 					<!--the welcome id can be found in homepage/body.css.-->
-					<div id="welcome">
-						<h1>Sabine Fischer - Junior Frontend Developer</h1>
-					</div>
-
-					<!--the .section class can be found in homepage/body.css.-->
-					<section class="section">
-						<!--the .section-title class can be found in homepage/body.css.-->
-						<div class="section-title">
-							<h2>Who I am</h2>
+					<section class="welcome helper">
+						<div>
+							<h1 id="h1-welcome">Sabine Fischer - Junior Frontend Developer</h1>
 						</div>
-						<!--the .section-text class can be found in homepage/body.css.-->
-						<div class="section-text">
-							<ul>
-								<li>Living in Rome</li>
-								<li>Love coding</li>
-								<li>Experienced former SEO Specialist</li>
-								<li>Web3 enthusiast</li>
+						<div>
+							<img id="picture" src="images/cardimg.jpg" alt="picture of Sabine Fischer">
+						</div>
+					</section>
+
+					<section class="section-uncolored social helper">
+						<div>
+							<a href="https://github.com/ada-net" rel="nofollow" target="_blank" title="visit my GitHub profile"><img class="link-img" src="images/iconmonstr-github-5-64.png"></a>
+						</div>
+						<div>
+							<a href="https://www.linkedin.com/in/sabine-fischer/" rel="nofollow" target="_blank" title="visit my LinkedIn profile"><img class="link-img" src="images/iconmonstr-linkedin-5-64.png"></a>
+						</div>
+						<div>
+							<a href="mailto:mail@fischer-sabine.com" title="send me an email"><img class="link-img" src="images/iconmonstr-email-11-64.png"></a>
+						</div>
+					</section>
+
+					<!--the .section-colored class can be found in homepage/body.css. | The brief class is in homepage/brief.css-->
+					<section class="section-colored brief helper">
+						<div>
+							<h2 class="h2-colored">In brief</h2>
+						</div>
+						<div>
+							<ul class="ul-colored">
+								<li>Student @Epicode School</li>
+								<li>Former SEO Specialist</li>
+								<li>IT Background</li>
+								<li>International</li>
+								<li>Web3 Early Adopter</li>
 							</ul>
 						</div>
 					</section>
 
-					<section class="section">
-						<div class="section-title">
-							<h3>Dummy Post Title</h3>
+					<section class="section-uncolored presentation helper">
+						<div>
+							<h2>Short Presentation</h2>
 						</div>
-						<div class="section-text">
-							test2
+						<div>
+							<p>Hello, I'm Sabine, 38 years old, originary from Germany, living in Italy for 10 years now.
+								<br>
+								For 8 years I've been a SEO passionate and have been working in this role as specialist.	
+								However, it's some time now that my interest is changing more and more to <b>returning to programming.</b>
+								<br><br>
+								I'll be able to cover the <b>role of a junior frontend developer, and even more</b>: 
+								<br>
+								Web projects need a <b>bridge between SEOs/other web marketing roles and developers</b>, figure that is very often missing and that can help
+								avoiding web marketing critical failures from the beginning on.
+								<br>
+								You can easily <b>imagine how much time and money could be saved</b> this way.
+								<br><br>
+								Programming languages are not the only languages of my interest. That's why during the last years I have been working
+								also on <b>multilingual projects, in Italian, English, German or Spanish</b>.
+							</p>
 						</div>
 					</section>
 
-					<section class="section">
-						<div class="section-title">
-							<h3>Second Dummy Post Title</h3>
-						</div>
-						<div class="section-text">
-							test3
-						</div>
-					</section>
-				</article>
+					
 			</main>
 
 			<!--this is the footer-->
 			<!--the .footer class can be found in global/footer.css. | .box: global/box.css-->
-			<footer class="footer box">
+			<footer class="footer helper">
 				<!--the copyright class can be found in global/footer.css.-->
-				<div class="copyright">
+				<div id="copyright">
 					<!--the .p-footer class can be found in global/text-styles.css.-->
 					<p class="p-footer">Copyright 2021 fischer-sabine.com</p>
 				</div>
 				<nav>
 					<!--the legal class can be found in global/footer.css.-->
-					<div class="legal">
+					<div id="legal">
 						<!--the .p-footer class can be found in global/text-styles.css.-->
 						<p class="p-footer">place for legal info and links</p>
 					</div>
