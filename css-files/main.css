@@ -27,7 +27,19 @@
 	/*social section CSS*/
 	@import "./homepage/social.css";
 
-	/*presentation section CSS*/
-	@import "./homepage/presentation.css";
+	/*presentation head section CSS*/
+	@import "./homepage/presentation-head.css";
+
+	/*presentation body section CSS*/
+	@import "./homepage/presentation-body.css";
+
+	/*education head section CSS*/
+	@import "./homepage/education-head.css";
+
+	/*education official body section CSS*/
+	@import "./homepage/education-body-official.css";
+
+	/*education others body section CSS*/
+	@import "./homepage/education-body-other.css";
 
 	

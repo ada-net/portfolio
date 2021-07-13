@@ -4,9 +4,17 @@
 .brief {
 	grid-area: br;
 	display: flex;
-	flex-direction:row;
-	justify-content:space-evenly;
-	border-radius:50%;
+	flex-direction:column;
+	justify-content:space-around;
+	text-align:center;
+	border-radius:90%;
 	padding-top: 50px;
     padding-bottom: 50px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+#brief-points {
+	color:white;
+	font-size:24px;
 }

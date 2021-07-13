@@ -6,12 +6,16 @@ The homepage body element styles can be found in body.css*/
 	.homepage-grid {
 		display: grid;
 		grid-template-columns: 100%;
-		grid-template-rows: 1fr 1fr 1fr 1fr 50px;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 50px;
 		grid-template-areas:
 		"we"
 		"so"
 		"br"
-		"pr"
+		"ph"
+		"pb"
+		"ed"
+		"ebof"
+		"ebot"
 		"ft";
 	
 	}
@@ -22,12 +26,16 @@ The homepage body element styles can be found in body.css*/
 	.homepage-grid {
 		display: grid;
 		grid-template-columns: 100%;
-		grid-template-rows: 1fr 1fr 1fr 1fr 50px;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 50px;
 		grid-template-areas:
 		"we"
 		"so"
 		"br"
-		"pr"
+		"ph"
+		"pb"
+		"ed"
+		"ebof"
+		"ebot"
 		"ft";
 	
 		
@@ -39,12 +47,16 @@ The homepage body element styles can be found in body.css*/
 	.homepage-grid {
 		display: grid;
 		grid-template-columns: 100%;
-		grid-template-rows: 1fr 1fr 1fr 1fr 50px;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 50px;
 		grid-template-areas:
 		"we"
 		"so"
 		"br"
-		"pr"
+		"ph"
+		"pb"
+		"ed"
+		"ebof"
+		"ebot"
 		"ft";
 		
 	}
