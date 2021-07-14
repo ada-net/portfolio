@@ -1,0 +1,35 @@
+/*File Description: "education" section style*/
+
+	/*education area title*/
+	.education-head {
+		grid-area: ed;
+		text-align: center;
+		border-radius:50% 70%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-left:30%;
+		margin-right:30%;
+		
+	}
+
+	/*the "official eduction" part*/
+	.education-official {
+		grid-area: ebof;
+		border-radius:10;
+		text-orientation:left;
+		padding-top: 20px;
+		padding-bottom: 50px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	/*the "interest/others" part*/
+	.education-other {
+		grid-area: ebot;
+		border-radius:10;
+		text-orientation:left;
+		padding-top: 20px;
+		padding-bottom: 50px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}

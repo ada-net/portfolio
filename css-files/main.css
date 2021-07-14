@@ -1,45 +1,37 @@
-/*GLOBAL CSS*/
+
+/*DEV Helpers, to be used only during development, not to be deployed.*/
+
+	/*layout helper. The only scope is to visualize the borders of each area. Its class will be removed from
+	the page's code when the layout is finished.*/
+	@import "./helper.css";
+
+
+/*landing page CSS. Since it is a one-page solution there is no page head with menu.*/
+
+	/*page grid CSS - the whole page is structured based on a grid.*/
+	@import "./homepage-grid.css";
+
+	/*reusable colors for the single page areas*/
+	@import "./page-colors.css";
 
 	/*CSS for text, links, quotations, ..*/
-	@import "./global/text-styles.css";
-
-	/*CSS for the reusable footer*/
-	@import "./global/footer.css";
-
-	/*layout helper*/
-	@import "./global/helper.css";
-
-
-
-	/*------------homepage----------------*/
-	/*homepage grid CSS*/
-	@import "./homepage/homepage-grid.css";
-
-	/*homepage body CSS*/
-	@import "./homepage/body.css";
+	@import "./text-styles.css";
 
 	/*welcome section CSS*/
-	@import "./homepage/welcome.css";
+	@import "./welcome.css";
+	
+	/*social section CSS*/
+	@import "./social.css";
 
 	/*brief section CSS*/
-	@import "./homepage/brief.css";
+	@import "./brief.css";
 
-	/*social section CSS*/
-	@import "./homepage/social.css";
+	/*presentation section CSS*/
+	@import "./presentation.css";
 
-	/*presentation head section CSS*/
-	@import "./homepage/presentation-head.css";
+	/*education section CSS*/
+	@import "./education.css";
 
-	/*presentation body section CSS*/
-	@import "./homepage/presentation-body.css";
-
-	/*education head section CSS*/
-	@import "./homepage/education-head.css";
-
-	/*education official body section CSS*/
-	@import "./homepage/education-body-official.css";
-
-	/*education others body section CSS*/
-	@import "./homepage/education-body-other.css";
-
+	/*footer*/
+	@import "./footer.css";
 	
