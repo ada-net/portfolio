@@ -11,15 +11,29 @@
 }
 
 /*welcome h1*/
-#h1-welcome {
-    font: bold 48px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-	text-align:center;
+@media (max-width:599px){
+    #h1-welcome {
+        font: bold 36px Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        text-align:center;
+    }
+}
+
+@media (min-width:600px){
+    #h1-welcome {
+        font: bold 44px Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        text-align:center;
+    }
 }
 
 /*picture style*/
 #picture {
     border-radius: 90%;
-   
+    border-width:5px;
+    background:linear-gradient(ghostwhite, rgb(100, 52, 190));
+    border-style:solid;
+    border-color:ghostwhite;
+    padding:7px;
     
 }

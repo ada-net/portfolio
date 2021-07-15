@@ -10,12 +10,23 @@
 	border-radius:90%;
 	padding-top: 50px;
     padding-bottom: 50px;
-	margin-left: 30%;
-	margin-right: 30%;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 /*extra style for the descriptive points below the brief section title*/
-#brief-points {
-	color:white;
-	font-size:24px;
+@media (max-width:599px)
+{
+	#brief-points {
+		color:white;
+		font-size:20px;
+	}
+}
+
+@media (min-width:600px)
+{
+	#brief-points {
+		color:white;
+		font-size:24px;
+	}
 }

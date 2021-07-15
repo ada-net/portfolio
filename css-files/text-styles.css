@@ -123,6 +123,33 @@ ul {
 		color: white;
 	}
 
+/*table default style*/
+table {
+	
+	font: normal 20px Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	/*width: 90%;*/
+	
+	
+	
+}
+
+	th {
+		border-style: solid;
+		border-color:black;
+		border-width: 2px;
+		text-align: left;
+		column-width: 150px;
+		padding:10px;
+	}
+
+	td {
+		border-style: solid;
+		border-color:cornflowerblue;
+		border-width: 1px;
+		text-align: left;
+		padding:10px;
+		}
 
 /*quotation style*/
 blockquote {
@@ -165,7 +192,7 @@ h2 {
 h3 {
 	font: normal 27px Verdana, Geneva, Tahoma, sans-serif;
 	color: black;
-	margin: 15px;
+	
 	padding-top: 20px;
 }
 

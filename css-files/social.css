@@ -5,9 +5,8 @@
 	grid-area: so;
 	display: flex;
 	flex-direction:row;
-	justify-content:space-evenly;
-    padding-top: 80px;
-    padding-bottom: 150px;
- 
+	justify-content:center;
+    
+    margin-bottom: 150px;
 }
 
