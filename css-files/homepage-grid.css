@@ -1,32 +1,30 @@
 /*File Description: This is the homepage grid template CSS.
 The homepage body element styles can be found in body.css*/
 
-/* Anything smaller than first breakpoint 600px */
-@media (max-width: 599px){
-	.homepage-grid {
-		display: grid;
-		grid-template-columns: 100%;
-		grid-template-rows: 1fr 500px 1fr 1fr 1fr 1fr 1fr 1fr 65px;
-		grid-template-areas:
-		"we"
-		"so"
-		"br"
-		"ph"
-		"pb"
-		"ed"
-		"ebof"
-		"ebot"
-		"ft";
-	
-	}
+
+.homepage-grid {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto;
+	grid-template-areas:
+	"we"
+	"so"
+	"br"
+	"ph"
+	"pb"
+	"ed"
+	"ebof"
+	"ebot"
+	"ft";
 }
 
-/* Medium Screens */
+
+/* Medium Screens 
 @media (min-width: 600px) and (max-width: 900px){
 	.homepage-grid {
 		display: grid;
-		grid-template-columns: 100%;
-		grid-template-rows: 1fr 500px 1fr 1fr 1fr 1fr 1fr 1fr 50px;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: auto;
 		grid-template-areas:
 		"we"
 		"so"
@@ -40,13 +38,13 @@ The homepage body element styles can be found in body.css*/
 	
 		
 	}
-}
+}*/
 
-/* Large Screens */
+/* Large Screens 
 @media (min-width: 901px) {
 	.homepage-grid {
 		display: grid;
-		grid-template-columns: 100%;
+		grid-template-columns: 50% 50%;
 		grid-template-rows: 1fr 200px 1fr 1fr 1fr 1fr 1fr 1fr 50px;
 		grid-template-areas:
 		"we"
@@ -60,5 +58,5 @@ The homepage body element styles can be found in body.css*/
 		"ft";
 		
 	}
-}
+}*/
 
