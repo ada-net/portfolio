@@ -1,0 +1,24 @@
+/*languages area title*/
+.languages-head {
+    grid-area: lh;
+    text-align: center;
+    border-radius:50% 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left:15%;
+    margin-right:15%;
+    
+}
+
+/*the languages section body*/
+.languages-body {
+    grid-area: lb;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    border-radius:10;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left:5%;
+    padding-right:5%;
+}

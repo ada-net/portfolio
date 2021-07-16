@@ -1,0 +1,24 @@
+/*the work section CSS*/
+
+.work-head {
+    grid-area: woh;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+    margin-left: 15%;
+    margin-right:15%;
+    margin-top: 150px;
+    border-radius: 80% 60%;
+}
+
+.work-body {
+    grid-area: wob;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-left:5%;
+	padding-right:5%;
+    margin-bottom: 50px;
+}

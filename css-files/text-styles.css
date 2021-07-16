@@ -128,10 +128,6 @@ table {
 	
 	font: normal 20px Verdana, Geneva, Tahoma, sans-serif;
 	color: black;
-	/*width: 90%;*/
-	
-	
-	
 }
 
 	th {
@@ -139,7 +135,7 @@ table {
 		border-color:black;
 		border-width: 2px;
 		text-align: left;
-		column-width: 150px;
+		column-width: 250px;
 		padding:10px;
 	}
 
@@ -147,6 +143,13 @@ table {
 		border-style: solid;
 		border-color:cornflowerblue;
 		border-width: 1px;
+		text-align: left;
+		padding:10px;
+		}
+
+	.td-languages {
+		border-style:none;
+		
 		text-align: left;
 		padding:10px;
 		}

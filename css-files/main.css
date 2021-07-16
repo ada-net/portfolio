@@ -32,6 +32,12 @@
 	/*education section CSS*/
 	@import "./education.css";
 
+	/*work section CSS*/
+	@import "./work.css";
+
+	/*languages section CSS*/
+	@import "./languages.css";
+
 	/*footer*/
 	@import "./footer.css";
 	

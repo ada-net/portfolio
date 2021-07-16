@@ -12,12 +12,14 @@
 		
 	}
 
-	/*the "official eduction" part*/
+	/*the "official education" part*/
 
 	.education-official {
 		grid-area: ebof;
+		display:flex;
+		flex-direction:row;
+		justify-content: center;
 		border-radius:10;
-		text-orientation:left;
 		padding-top: 20px;
 		padding-bottom: 50px;
 		padding-left:5%;
@@ -28,11 +30,12 @@
 	/*the "interest/others" part*/
 	.education-other {
 		grid-area: ebot;
-		border-radius:10;
-		text-orientation:left;
+		display: flex;
+		flex-direction:row;
+		justify-content: center;
+		border-radius:10;	
 		padding-top: 20px;
 		padding-bottom: 50px;
 		padding-left:5%;
 		padding-right:5%;
-		
 	}
