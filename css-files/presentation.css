@@ -1,38 +1,38 @@
 /*File Description: "presentation" section style*/
 
-    /*presentation section title*/
-    .presentation-head {
-        grid-area: ph;
-        text-align: center;
-        padding-top:30px;
-        padding-bottom: 30px;
-        margin-left: 15%;
-        margin-right:15%;
-        margin-top: 150px;
-        border-radius: 80% 60%;
-    }
+	/*presentation section title*/
+	.presentation-head {
+		grid-area: ph;
+		text-align: center;
+		padding-top:30px;
+		padding-bottom: 30px;
+		margin-left: 15%;
+		margin-right:15%;
+		margin-top: 150px;
+		border-radius: 80% 60%;
+	}
 
-    /*presentation section text content, divided in 2 screen sizes*/
-    @media (max-width:599px){
-        .presentation-body {
-            grid-area: pb;
-            text-align:initial;
-            display:flex;
-            margin-left: 10%;
-            margin-right: 10%;
-            margin-top: 30px;
-            margin-bottom: 150px;
-        }
-    }
+	/*presentation section text content, divided in 2 screen sizes*/
+	@media (max-width:599px){
+		.presentation-body {
+			grid-area: pb;
+			text-align:initial;
+			display:flex;
+			margin-left: 10%;
+			margin-right: 10%;
+			margin-top: 30px;
+			margin-bottom: 150px;
+		}
+	}
 
-    @media (min-width:600px){
-        .presentation-body {
-            grid-area: pb;
-            text-align:initial;
-            display:flex;
-            margin-left: 15%;
-            margin-right: 15%;
-            margin-top: 30px;
-            margin-bottom: 150px;
-        }
-    }
+	@media (min-width:600px){
+		.presentation-body {
+			grid-area: pb;
+			text-align:initial;
+			display:flex;
+			margin-left: 15%;
+			margin-right: 15%;
+			margin-top: 30px;
+			margin-bottom: 150px;
+		}
+	}

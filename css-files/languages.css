@@ -1,24 +1,24 @@
 /*languages area title*/
 .languages-head {
-    grid-area: lh;
-    text-align: center;
-    padding-top:30px;
-    padding-bottom: 30px;
-    margin-left: 15%;
-    margin-right:15%;
-    margin-top: 150px;
-    border-radius:50% 70%;
+	grid-area: lh;
+	text-align: center;
+	padding-top:30px;
+	padding-bottom: 30px;
+	margin-left: 15%;
+	margin-right:15%;
+	margin-top: 150px;
+	border-radius:50% 70%;
 }
 
 /*the languages section body*/
 .languages-body {
-    grid-area: lb;
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-    border-radius:10;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left:5%;
-    padding-right:5%;
+	grid-area: lb;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	border-radius:10;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left:5%;
+	padding-right:5%;
 }

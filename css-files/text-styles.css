@@ -125,21 +125,21 @@
 
 	/*unordered list style*/
 	ul {
-		
+
 		font: normal 20px Raleway, Verdana, Geneva, Tahoma, sans-serif;
 		color: black;
 	}
 
 		/*unordered list style for background-colored sections*/
 		.ul-colored{
-			
+
 			font: normal 20px Raleway, Verdana, Geneva, Tahoma, sans-serif;
 			color: white;
 		}
 
 	/*table style*/
 	table {
-		
+
 		font: normal 20px Raleway, Verdana, Geneva, Tahoma, sans-serif;
 		color: black;
 	}
@@ -194,21 +194,21 @@
 	}
 
 	/*special H1 style for the welcome section*/
-    @media (max-width:599px){
-        #h1-welcome {
-            font: normal 36px Raleway, Verdana, Geneva, Tahoma, sans-serif;
-            color: black;
-            text-align:center;
-        }
-    }
+	@media (max-width:599px){
+		#h1-welcome {
+			font: normal 36px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+			color: black;
+			text-align:center;
+		}
+	}
 
-    @media (min-width:600px){
-        #h1-welcome {
-            font: normal 44px Raleway, Verdana, Geneva, Tahoma, sans-serif;
-            color: black;
-            text-align:center;
-        }
-    }
+	@media (min-width:600px){
+		#h1-welcome {
+			font: normal 44px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+			color: black;
+			text-align:center;
+		}
+	}
 
 	h2 {
 		font: normal 40px Raleway, Verdana, Geneva, Tahoma, sans-serif;
@@ -226,7 +226,7 @@
 	h3 {
 		font: normal 27px Raleway, Verdana, Geneva, Tahoma, sans-serif;
 		color: black;
-		
+
 		padding-top: 20px;
 	}
 

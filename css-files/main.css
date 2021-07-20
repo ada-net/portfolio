@@ -19,7 +19,7 @@
 
 	/*welcome section CSS*/
 	@import "./welcome.css";
-	
+
 	/*social section CSS*/
 	@import "./social.css";
 
@@ -40,4 +40,3 @@
 
 	/*footer*/
 	@import "./footer.css";
-	
