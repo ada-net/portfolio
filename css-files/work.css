@@ -1,6 +1,6 @@
 /*the work section CSS*/
 
-.work-head {
+#work-head {
 	grid-area: woh;
 	text-align: center;
 	padding-top:30px;
@@ -11,7 +11,7 @@
 	border-radius: 80% 60%;
 }
 
-.work-body {
+#work-body {
 	grid-area: wob;
 	display:flex;
 	flex-direction:row;

@@ -1,6 +1,6 @@
 /*Welcome section*/
 
-.welcome {
+#welcome {
 	grid-area: we;
 	display:flex;
 	flex-direction:column;

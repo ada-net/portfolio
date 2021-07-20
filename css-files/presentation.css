@@ -1,7 +1,7 @@
 /*File Description: "presentation" section style*/
 
 	/*presentation section title*/
-	.presentation-head {
+	#presentation-head {
 		grid-area: ph;
 		text-align: center;
 		padding-top:30px;
@@ -14,7 +14,7 @@
 
 	/*presentation section text content, divided in 2 screen sizes*/
 	@media (max-width:599px){
-		.presentation-body {
+		#presentation-body {
 			grid-area: pb;
 			text-align:initial;
 			display:flex;
@@ -26,7 +26,7 @@
 	}
 
 	@media (min-width:600px){
-		.presentation-body {
+		#presentation-body {
 			grid-area: pb;
 			text-align:initial;
 			display:flex;

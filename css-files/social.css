@@ -1,7 +1,7 @@
 /*File Description: "social" section style*/
 
 /*organized as flexbox*/
-.social {
+#social {
 	grid-area: so;
 	display: flex;
 	flex-direction:row;

@@ -1,7 +1,7 @@
 /*File Description: "education" section style*/
 
 	/*education area title*/
-	.education-head {
+	#education-head {
 		grid-area: ed;
 		text-align: center;
 		border-radius:50% 70%;
@@ -13,7 +13,7 @@
 
 		/*the "official education" part*/
 
-		.education-official {
+		#education-official {
 			grid-area: ebof;
 			display:flex;
 			flex-direction:row;
@@ -26,7 +26,7 @@
 		}
 
 		/*the "interest/others" part*/
-		.education-other {
+		#education-other {
 			grid-area: ebot;
 			display: flex;
 			flex-direction:row;

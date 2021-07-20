@@ -1,7 +1,7 @@
 /*File Description: "in brief" section style*/
 
 /*organized as flexbox*/
-.brief {
+#brief {
 	grid-area: br;
 	display: flex;
 	flex-direction:column;

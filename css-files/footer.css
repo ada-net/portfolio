@@ -1,7 +1,7 @@
 /*File Description: footer style*/
 
 /*footer is organized as flexbox*/
-.footer {
+#footer {
 	grid-area: ft;
 	display: flex;
 	flex-direction: row;

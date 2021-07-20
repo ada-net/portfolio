@@ -1,5 +1,5 @@
 /*languages area title*/
-.languages-head {
+#languages-head {
 	grid-area: lh;
 	text-align: center;
 	padding-top:30px;
@@ -11,7 +11,7 @@
 }
 
 /*the languages section body*/
-.languages-body {
+#languages-body {
 	grid-area: lb;
 	display:flex;
 	flex-direction:row;
