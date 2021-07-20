@@ -34,14 +34,7 @@ p {
 		color: whitesmoke;
 	}
 
-	/*p style for call to actions*/
-	.p-cta {
-		margin: 15px;
-		font: bold 20px Verdana, Geneva, Tahoma, sans-serif;
-		color: black;
-	}
-
-/*general link and link hover style (not valid for main nav. For main navigation is used the .a-main class)*/
+/*general link and link hover style*/
 a {
 	margin: 15px;
 	font: bolder 13px Verdana, Geneva, Tahoma, sans-serif;
@@ -55,6 +48,7 @@ a {
 		text-decoration-color: blue;
 	}
 
+	/*style for images with link (e.g. used for the social buttons)*/
 	.link-img {
 		border-style: solid;
 		border-color: white;
@@ -69,47 +63,9 @@ a {
 		border-spacing:5px;
 		border-radius:45%;
 		border-width:5px;
-		
-		
 	}
 
-	/*main nav link style, diversified by display size*/
-	@media (max-width: 599px) {
-		.a-main {
-			font: bolder 12px Verdana, Geneva, Tahoma, sans-serif;
-			text-decoration: none;
-			color: black;
-		}
-	}
-
-	@media (min-width: 600px) {
-		.a-main {
-			font: bolder 16px Verdana, Geneva, Tahoma, sans-serif;
-			text-decoration: none;
-			color: black;
-		}
-	}
-
-	/*main nav link hover style, diversified by display size*/
-	@media (max-width: 599px) {
-		.a-main:hover {
-			font: bold 12px Verdana, Geneva, Tahoma, sans-serif;
-			text-decoration: underline;
-			text-decoration-color: rebeccapurple;
-			text-decoration-thickness: 4px;
-		}
-	}
-
-	@media (min-width: 600px) {
-		.a-main:hover {
-			font: bold 16px Verdana, Geneva, Tahoma, sans-serif;
-			text-decoration: underline;
-			text-decoration-color: rebeccapurple;
-			text-decoration-thickness: 4px;
-		}
-	}
-
-/*unordered list default style*/
+/*unordered list style*/
 ul {
 	
 	font: normal 20px Verdana, Geneva, Tahoma, sans-serif;
@@ -123,7 +79,7 @@ ul {
 		color: white;
 	}
 
-/*table default style*/
+/*table style*/
 table {
 	
 	font: normal 20px Verdana, Geneva, Tahoma, sans-serif;
@@ -147,12 +103,12 @@ table {
 		padding:10px;
 		}
 
-	.td-languages {
-		border-style:none;
-		
-		text-align: left;
-		padding:10px;
-		}
+		/*special td css for the languages section (no borders)*/
+		.td-languages {
+			border-style:none;
+			text-align: left;
+			padding:10px;
+			}
 
 /*quotation style*/
 blockquote {
@@ -186,10 +142,10 @@ h2 {
 	padding: 10px;
 }
 
+	/*this one is being used for colored sections*/
 	.h2-colored {
 		font: bolder 36px Verdana, Geneva, Tahoma, sans-serif;
 		color: white;
-		
 	}
 
 h3 {
@@ -212,51 +168,6 @@ h5 {
 }
 
 h6 {
-	font: normal 18px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-	margin: 15px;
-}
-
-/* I am also defining H1-H6 CLASS styles in order to be able to make text elements LOOK like a heading although they aren't.
-		Reason: From a SEO point of view it is sometimes not good using headings for pure styling purposes.
-		In other words: If I want to have a big sized text element I should not be forced to declare a H1 or H2.
-		The declaration of "heading classes" aims to be a good solution for both devs and SEOs. */
-
-.h1-like {
-	font: bold 34px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-	margin: 15px;
-	padding-top: 20px;
-	padding-bottom: 30px;
-}
-
-.h2-like {
-	font: bolder 36px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-	margin: 30px;
-	padding-top: 30px;
-}
-
-.h3-like {
-	font: normal 27px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-	margin: 15px;
-	padding-top: 20px;
-}
-
-.h4-like {
-	font: normal 23px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-	margin: 15px;
-}
-
-.h5-like {
-	font: normal 19px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-	margin: 15px;
-}
-
-.h6-like {
 	font: normal 18px Verdana, Geneva, Tahoma, sans-serif;
 	color: black;
 	margin: 15px;

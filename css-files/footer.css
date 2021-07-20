@@ -1,4 +1,4 @@
-/*File Description: Global footer style*/
+/*File Description: footer style*/
 
 /*footer is organized as flexbox*/
 .footer {
@@ -9,12 +9,12 @@
 	background-color:  #333;
 }
 
-/*footer copyright info style*/
-#copyright {
-	padding: 10px;
-}
+	/*footer copyright info style*/
+	#copyright {
+		padding: 10px;
+	}
 
-/*footer legal info style*/
-#legal {
-	padding:10px;
-}
+	/*footer legal info style*/
+	#legal {
+		padding:10px;
+	}
