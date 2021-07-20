@@ -1,174 +1,249 @@
+/* -------------------------- Google Font Raleway -------------------------------------------*/
+
+	/* raleway-regular - latin */
+	@font-face {
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: 400;
+		src: url('../fonts/raleway-v22-latin-regular.eot'); /* IE9 Compat Modes */
+		src: local(''),
+			url('../fonts/raleway-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('../fonts/raleway-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+			url('../fonts/raleway-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+			url('../fonts/raleway-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+			url('../fonts/raleway-v22-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+	}
+
+	/* raleway-500 - latin */
+	@font-face {
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: 500;
+		src: url('../fonts/raleway-v22-latin-500.eot'); /* IE9 Compat Modes */
+		src: local(''),
+			url('../fonts/raleway-v22-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('../fonts/raleway-v22-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+			url('../fonts/raleway-v22-latin-500.woff') format('woff'), /* Modern Browsers */
+			url('../fonts/raleway-v22-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+			url('../fonts/raleway-v22-latin-500.svg#Raleway') format('svg'); /* Legacy iOS */
+	}
+
+	/* raleway-700 - latin */
+	@font-face {
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: 700;
+		src: url('../fonts/raleway-v22-latin-700.eot'); /* IE9 Compat Modes */
+		src: local(''),
+			url('../fonts/raleway-v22-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('../fonts/raleway-v22-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+			url('../fonts/raleway-v22-latin-700.woff') format('woff'), /* Modern Browsers */
+			url('../fonts/raleway-v22-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+			url('../fonts/raleway-v22-latin-700.svg#Raleway') format('svg'); /* Legacy iOS */
+	}
+
+	/* raleway-italic - latin */
+	@font-face {
+		font-family: 'Raleway';
+		font-style: italic;
+		font-weight: 400;
+		src: url('../fonts/raleway-v22-latin-italic.eot'); /* IE9 Compat Modes */
+		src: local(''),
+			url('../fonts/raleway-v22-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('../fonts/raleway-v22-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+			url('../fonts/raleway-v22-latin-italic.woff') format('woff'), /* Modern Browsers */
+			url('../fonts/raleway-v22-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+			url('../fonts/raleway-v22-latin-italic.svg#Raleway') format('svg'); /* Legacy iOS */
+	}
+
 /* ------------------------------- FONT styles --------------------------------- */
 
-/* Default font style in <p> elements */
-p {
-	margin: 15px;
-	font: normal 20px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-}
-
-	/*special <p> styles*/
-	.p-bold {
+	/* Default font style in <p> elements */
+	p {
 		margin: 15px;
-		font: bold 20px Verdana, Geneva, Tahoma, sans-serif;
+		font: normal 20px Raleway, Verdana, Geneva, Tahoma, sans-serif;
 		color: black;
 	}
 
-	.p-italic {
-		margin: 15px;
-		font: italic normal 20px Verdana, Geneva, Tahoma, sans-serif;
-		color: black;
-	}
-
-	.p-underlined {
-		margin: 15px;
-		font: normal 20px Verdana, Geneva, Tahoma, sans-serif;
-		text-decoration-line: underline;
-		color: black;
-	}
-
-	/*p style for footer area*/
-	.p-footer {
-		margin: 5px;
-		font: normal 14px Verdana, Geneva, Tahoma, sans-serif;
-		color: whitesmoke;
-	}
-
-/*general link and link hover style*/
-a {
-	margin: 15px;
-	font: bolder 13px Verdana, Geneva, Tahoma, sans-serif;
-	color: blue;
-	text-decoration: none;
-}
-
-	a:hover {
-		font: bold 13px Verdana, Geneva, Tahoma, sans-serif;
-		text-decoration-line: underline;
-		text-decoration-color: blue;
-	}
-
-	/*style for images with link (e.g. used for the social buttons)*/
-	.link-img {
-		border-style: solid;
-		border-color: white;
-		border-radius:45%;
-		border-width: 5px;
-	}
-
-	.link-img:hover {
-		border-style: solid;
-		border-left-color: chartreuse;
-		border-right-color: chartreuse;
-		border-spacing:5px;
-		border-radius:45%;
-		border-width:5px;
-	}
-
-/*unordered list style*/
-ul {
-	
-	font: normal 20px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-}
-
-	/*unordered list style for background-colored sections*/
-	.ul-colored{
-		
-		font: normal 20px Verdana, Geneva, Tahoma, sans-serif;
-		color: white;
-	}
-
-/*table style*/
-table {
-	
-	font: normal 20px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-}
-
-	th {
-		border-style: solid;
-		border-color:black;
-		border-width: 2px;
-		text-align: left;
-		column-width: 250px;
-		padding:10px;
-	}
-
-	td {
-		border-style: solid;
-		border-color:cornflowerblue;
-		border-width: 1px;
-		text-align: left;
-		padding:10px;
+		/*special <p> styles*/
+		.p-bold {
+			margin: 15px;
+			font: bold 20px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+			color: black;
 		}
 
-		/*special td css for the languages section (no borders)*/
-		.td-languages {
-			border-style:none;
+		.p-italic {
+			margin: 15px;
+			font: italic normal 20px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+			color: black;
+		}
+
+		.p-underlined {
+			margin: 15px;
+			font: normal 20px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+			text-decoration-line: underline;
+			color: black;
+		}
+
+		/*p style for footer area*/
+		.p-footer {
+			margin: 5px;
+			font: normal 14px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+			color: whitesmoke;
+		}
+
+	/*general link and link hover style*/
+	a {
+		margin: 15px;
+		font: bolder 13px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+		color: blue;
+		text-decoration: none;
+	}
+
+		a:hover {
+			font: bold 13px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+			text-decoration-line: underline;
+			text-decoration-color: blue;
+		}
+
+		/*style for images with link (e.g. used for the social buttons)*/
+		.link-img {
+			border-style: solid;
+			border-color: white;
+			border-radius:45%;
+			border-width: 5px;
+		}
+
+		.link-img:hover {
+			border-style: solid;
+			border-left-color: chartreuse;
+			border-right-color: chartreuse;
+			border-spacing:5px;
+			border-radius:45%;
+			border-width:5px;
+		}
+
+	/*unordered list style*/
+	ul {
+		
+		font: normal 20px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+	}
+
+		/*unordered list style for background-colored sections*/
+		.ul-colored{
+			
+			font: normal 20px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+			color: white;
+		}
+
+	/*table style*/
+	table {
+		
+		font: normal 20px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+	}
+
+		th {
+			border-style: solid;
+			border-color:black;
+			border-width: 2px;
+			text-align: left;
+			column-width: 250px;
+			padding:10px;
+		}
+
+		td {
+			border-style: solid;
+			border-color:cornflowerblue;
+			border-width: 1px;
 			text-align: left;
 			padding:10px;
 			}
 
-/*quotation style*/
-blockquote {
-	margin-left: 30px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	font: lighter 0.5cm Verdana, Geneva, Tahoma, sans-serif;
-	color: purple;
-	background-color: lightcyan;
-}
+			/*special td css for the languages section (no borders)*/
+			.td-languages {
+				border-style:none;
+				text-align: left;
+				padding:10px;
+				}
 
-	#blockquote-link {
-		font: normal 0.5cm Verdana, Geneva, Tahoma, sans-serif;
-		color: blue;
+	/*quotation style*/
+	blockquote {
+		margin-left: 30px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font: lighter 0.5cm Raleway, Verdana, Geneva, Tahoma, sans-serif;
+		color: purple;
+		background-color: lightcyan;
 	}
 
-/*headings styles. NOTE that there are also heading CLASSES defined, in order to be able to create
-text elements LOOKING LIKE a certain heading, for SEO purposes as explained below*/
-h1 {
-	font: bold 38px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-	padding-top: 50px;
-	padding-bottom: 30px;
-	text-align:center;
-}
+		#blockquote-link {
+			font: normal 0.5cm Raleway, Verdana, Geneva, Tahoma, sans-serif;
+			color: blue;
+		}
 
-h2 {
-	font: bolder 36px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-	margin: 15px;
-	padding: 10px;
-}
-
-	/*this one is being used for colored sections*/
-	.h2-colored {
-		font: bolder 36px Verdana, Geneva, Tahoma, sans-serif;
-		color: white;
+	/*headings styles. NOTE that there are also heading CLASSES defined, in order to be able to create
+	text elements LOOKING LIKE a certain heading, for SEO purposes as explained below*/
+	h1 {
+		font: bold 40px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+		padding-top: 50px;
+		padding-bottom: 30px;
+		text-align:center;
 	}
 
-h3 {
-	font: normal 27px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-	
-	padding-top: 20px;
-}
+	/*special H1 style for the welcome section*/
+    @media (max-width:599px){
+        #h1-welcome {
+            font: bold 36px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
+            text-align:center;
+        }
+    }
 
-h4 {
-	font: normal 23px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-	margin: 15px;
-}
+    @media (min-width:600px){
+        #h1-welcome {
+            font: bold 44px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
+            text-align:center;
+        }
+    }
 
-h5 {
-	font: normal 19px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-	margin: 15px;
-}
+	h2 {
+		font: bolder 40px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+		margin: 15px;
+		padding: 10px;
+	}
 
-h6 {
-	font: normal 18px Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-	margin: 15px;
-}
+		/*this one is being used for colored sections*/
+		.h2-colored {
+			font: bolder 40px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+			color: white;
+		}
+
+	h3 {
+		font: normal 27px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+		
+		padding-top: 20px;
+	}
+
+	h4 {
+		font: normal 23px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+		margin: 15px;
+	}
+
+	h5 {
+		font: normal 19px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+		margin: 15px;
+	}
+
+	h6 {
+		font: normal 18px Raleway, Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+		margin: 15px;
+	}
