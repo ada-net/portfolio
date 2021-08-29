@@ -96,14 +96,14 @@
 	a {
 		margin: 15px;
 		font: bolder 13px Raleway, Verdana, Geneva, Tahoma, sans-serif;
-		color: blue;
+		color: rgb(0, 195, 255);
 		text-decoration: none;
 	}
 
 		a:hover {
 			font: bold 13px Raleway, Verdana, Geneva, Tahoma, sans-serif;
 			text-decoration-line: underline;
-			text-decoration-color: blue;
+			text-decoration-color: rgb(0, 195, 255);
 		}
 
 		/*style for images with link (e.g. used for the social buttons)*/
