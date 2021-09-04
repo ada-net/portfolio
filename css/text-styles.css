@@ -132,9 +132,12 @@
 
 		/*unordered list style for background-colored sections*/
 		.ul-colored{
-
 			font: normal 20px Raleway, Verdana, Geneva, Tahoma, sans-serif;
 			color: white;
+		}
+
+		li {
+			line-height: 180%;
 		}
 
 	/*table style*/
@@ -188,8 +191,8 @@
 	h1 {
 		font: bold 40px Raleway, Verdana, Geneva, Tahoma, sans-serif;
 		color: black;
-		padding-top: 50px;
-		padding-bottom: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 		text-align:center;
 	}
 
@@ -199,6 +202,8 @@
 			font: normal 36px Raleway, Verdana, Geneva, Tahoma, sans-serif;
 			color: black;
 			text-align:center;
+			padding-top: 0px;
+			padding-bottom: 0px;
 		}
 	}
 
@@ -207,6 +212,8 @@
 			font: normal 44px Raleway, Verdana, Geneva, Tahoma, sans-serif;
 			color: black;
 			text-align:center;
+			padding-top: 0px;
+			padding-bottom: 0px;
 		}
 	}
 

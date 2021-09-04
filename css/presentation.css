@@ -10,14 +10,16 @@
 		margin-right:15%;
 		margin-top: 150px;
 		border-radius: 80% 60%;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 
 	/*presentation section text content, divided in 2 screen sizes*/
 	@media (max-width:599px){
 		#presentation-body {
 			grid-area: pb;
-			text-align:initial;
 			display:flex;
+			text-align:justify;
+			flex-direction:column;
 			margin-left: 10%;
 			margin-right: 10%;
 			margin-top: 30px;
@@ -28,8 +30,9 @@
 	@media (min-width:600px){
 		#presentation-body {
 			grid-area: pb;
-			text-align:initial;
 			display:flex;
+			text-align:justify;
+			flex-direction:column;
 			margin-left: 15%;
 			margin-right: 15%;
 			margin-top: 30px;
