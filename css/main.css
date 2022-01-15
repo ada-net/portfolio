@@ -1,42 +1,27 @@
-
 /*DEV Helpers, to be used only during development, not to be deployed.*/
-
-	/*layout helper. The only scope is to visualize the borders of each area. Its class will be removed from
+/*layout helper. The only scope is to visualize the borders of each area. Its class will be removed from
 	the page's code when the layout is finished.*/
-	@import "./helper.css";
-
-
+@import url(./helper.css);
 /*landing page CSS. Since it is a one-page solution there is no page head with menu.*/
-
-	/*page grid CSS - the whole page is structured based on a grid.*/
-	@import "./homepage-grid.css";
-
-	/*reusable colors for the single page areas*/
-	@import "./page-colors.css";
-
-	/*CSS for text, links, quotations, ..*/
-	@import "./text-styles.css";
-
-	/*welcome section CSS*/
-	@import "./welcome.css";
-
-	/*social section CSS*/
-	@import "./social.css";
-
-	/*brief section CSS*/
-	@import "./brief.css";
-
-	/*presentation section CSS*/
-	@import "./presentation.css";
-
-	/*education section CSS*/
-	@import "./education.css";
-
-	/*work section CSS*/
-	@import "./work.css";
-
-	/*languages section CSS*/
-	@import "./languages.css";
-
-	/*footer*/
-	@import "./footer.css";
+/*page grid CSS - the whole page is structured based on a grid.*/
+@import url(./homepage-grid.css);
+/*reusable colors for the single page areas*/
+@import url(./page-colors.css);
+/*CSS for text, links, quotations, ..*/
+@import url(./text-styles.css);
+/*welcome section CSS*/
+@import url(./welcome.css);
+/*social section CSS*/
+@import url(./social.css);
+/*brief section CSS*/
+@import url(./brief.css);
+/*presentation section CSS*/
+@import url(./presentation.css);
+/*education section CSS*/
+@import url(./education.css);
+/*work section CSS*/
+@import url(./work.css);
+/*languages section CSS*/
+@import url(./languages.css);
+/*footer*/
+@import url(./footer.css);

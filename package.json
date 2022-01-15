@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-new",
+  "version": "1.0.0",
+  "description": "professional interactive portfolio website",
+  "main": "playground.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ada-net/portfolio.git"
+  },
+  "author": "sabine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ada-net/portfolio/issues"
+  },
+  "homepage": "https://github.com/ada-net/portfolio#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
